@@ -1,0 +1,64 @@
+<h1>
+  Analysis of Car Model Purchased vs. Simple or Bold Color
+</h1>
+
+<p>Total Observations: {{_df+1}}</p>
+<p>Chi-2: {{_chi2}}</p>
+
+<!-- In a real app, this entire layout would be dynamic; everything is hardcoded on the front end since the intent
+of the demo is to illustrate Typescript to perform analytics on the back end -->
+<table>
+  <th>Model</th>
+  <th>Simple Color</th>
+  <th>Bold Color</th>
+  <th>Row Total</th>
+  <tr>
+    <td>SEL</td>
+    <td>
+      n: {{_n00}} <br/>
+      r: {{_r00 | number:'1.1-4'}} <br/>
+      c: {{_c00 | number:'1.1-4'}} <br/>
+      t: {{_t00 | number:'1.1-4'}} <br/>
+    </td>
+    <td>
+      n: {{_n01}} <br/>
+      r: {{_r01 | number:'1.1-4'}} <br/>
+      c: {{_c01 | number:'1.1-4'}} <br/>
+      t: {{_t01 | number:'1.1-4'}} <br/></td>
+    <td>{{_row0}}</td>
+  </tr>
+
+  <tr>
+    <td>SE</td>
+    <td>
+      n: {{_n10}} <br/>
+      r: {{_r10 | number:'1.1-4'}} <br/>
+      c: {{_c10 | number:'1.1-4'}} <br/>
+      t: {{_t10 | number:'1.1-4'}} <br/>
+    </td>
+    <td>
+      n: {{_n11}} <br/>
+      r: {{_r11 | number:'1.1-4'}} <br/>
+      c: {{_c11 | number:'1.1-4'}} <br/>
+      t: {{_t1 | number:'1.1-4'}} <br/>
+    </td>
+    <td>{{_row1}}</td>
+  </tr>
+
+  <tr>
+    <td>SES</td>
+    <td>
+      n: {{_n20}} <br/>
+      r: {{_r20 | number:'1.1-4'}} <br/>
+      c: {{_c20 | number:'1.1-4'}} <br/>
+      t: {{_t20 | number:'1.1-4'}} <br/>
+    </td>
+    <td>
+      n: {{_n21}} <br/>
+      r: {{_r21 | number:'1.1-4'}} <br/>
+      c: {{_c21 | number:'1.1-4'}} <br/>
+      t: {{_t21 | number:'1.1-4'}} <br/>
+    </td>
+    <td>{{_row2}}</td>
+  </tr>
+</table>

@@ -1,0 +1,25 @@
+{
+  "compilerOptions" : {
+    "target" : "ES5",
+    "module" : "commonjs",
+    "sourceMap" : false,
+    "emitDecoratorMetadata" : true,
+    "experimentalDecorators" : true,
+    "moduleResolution" : "classic",
+    "removeComments" : false,
+    "noImplicitAny" : true,
+    "suppressImplicitAnyIndexErrors" : true,
+    "types" : []
+  },
+  "files": [
+    "./lib/Chi2.ts",
+    "./lib/DataFrame.ts",
+    "./lib/DataStats.ts",
+    "./lib/FrameStats.ts",
+    "./lib/Spcfcn.ts",
+    "./lib/TableAnalysis.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
