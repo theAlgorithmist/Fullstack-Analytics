@@ -22,7 +22,7 @@
     "express-validator": "3.1.2",
     "glob": "7.1.1",
     "html-to-text": "3.2.0",
-    "mongoose": "4.8.7",
+    "mongoose": "5.9.3",
     "mongoose-mongodb-errors": "0.0.2",
     "validator": "7.0.0"
   },
